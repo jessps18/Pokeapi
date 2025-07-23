@@ -3,3 +3,76 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 20px;
+}
+
+.pokedex{
+    height: 95vh;
+    background-color: #FFF09E;
+    width: 70vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 15px;
+}
+
+.cards{
+    width: 60vw;
+    height: 75vh;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cards div{
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: 35vh;
+    width: 14vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cards div:hover{
+    box-shadow: 0px 0px 8px #e7d259;
+    transform: scale(1.05);
+}
+
+.pokedex input{
+    width: 40vw;
+    height: 5vh;
+    border: none;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+.pokedex select{
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    height: 5vh;
+}
+
+.pokedex input:focus{
+    outline: none;
+}
+
+.detalhes{
+    background-color: #FFF09E;
+    height: 95vh;
+    width: 30vw;
+    border-radius: 20px;
+}
